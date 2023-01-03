@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(0, 0%, 100%);
+}
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    height: 44.5rem;
+    max-width: 100rem;
+    /* width: 100%; */
+    /* position: absolute; */
+    background-color: hsl(0, 0%, 100%);
+}
+.container-left{
+    height: 40rem;
+    width: 27rem;
+    background-image: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-bottom-left-radius: 12rem;
+    border-bottom-right-radius: 12rem;
+    
+}
+.container-middle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: aqua; */
+    /* height: 44.5rem;
+    width: 46rem; */
+    /* width: 100%; */
+}
+/* phone section start */
+.phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 38.4rem;
+    width: 20rem;
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 2.5rem;
+    /* top: 6.5rem; */
+    left: 22rem;
+    
+}
+.phone-top{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 5rem;
+    width: 18rem;
+    background-image: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* margin-top: -1px; */
+    /* border: 1px solid black; */
+}
+.phone-top .icone1{
+    text-align: center;
+    color: #fff;
+    /* font-size: 5rem; */
+}
+.phone-top .icone1 span{
+    position: absolute;
+    font-size: 15px;
+    left: 2rem;
+    font-weight: 700;
+}
+.phone-top img{
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    left: 3rem;
+    top:2.7rem;
+}.phone-top h4{
+    position: absolute;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    left: 6rem;
+    top:2.7rem;
+}
+.phone-top h4 span{
+    font-size: 10px;
+    color: hsl(276, 100%, 81%);
+}
+.phone-top li{
+    position: absolute;
+    color: #fff;
+    left: 16.5rem;
+}
+.phone-top .phone-noch{
+    position: absolute;
+    height: 1.5rem;
+    width: 10rem;
+    background-color: hsl(270, 20%, 96%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    left: 5.2rem;
+    top: 1rem;
+    /* border: 1px solid black; */
+}
+.chat-box{
+    height: 31.4rem;
+    width: 18rem;
+    background-color: hsl(264, 22%, 95%);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.chat-box .first-box .chate-one li{
+    margin: 0.5rem;
+    list-style: none;
+    padding: 0.5rem;
+    background-color: hsl(270, 11%, 89%);
+    font-size: 14px;
+    height: 50px;
+    width: 12rem;
+    border-radius: 15px;
+    font-weight: 500;
+    color: hsl(271, 15%, 43%);
+}
+.chat-box .first-box .chate-two li{
+    list-style: none;
+    padding: 0.5rem;
+    background-color: hsl(270, 11%, 89%);
+    font-size: 14px;
+    height: 50px;
+    width: 12rem;
+    border-radius: 15px;
+    font-weight: 500;
+    color: hsl(271, 15%, 43%);
+    margin-left: 0.5rem;
+}
+.chate-right .image{
+    display: flex;
+    height: 4rem;
+    width: 4rem;
+    margin-left: 6rem;
+}
+.chate-right .image img{
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+.chateright-one li{
+    position: absolute;
+    list-style: none;
+    padding: 0.5rem;
+    background-color: #fff;
+    font-size: 14px;
+    height: 50px;
+    width: 12rem;
+    border-radius: 15px;
+    font-weight: 500;
+    color: hsl(271, 15%, 43%);
+    left: 6.5rem;
+
+}
+.chateright-two li{
+    position: absolute;
+    list-style: none;
+    padding: 0.5rem;
+    background-color: #fff;
+    font-size: 14px;
+    height: 35px;
+    width: 8rem;
+    border-radius: 15px;
+    font-weight: 500;
+    color: hsl(271, 15%, 43%);
+    left: 10.5rem;
+    /* bottom: 11.3rem; */
+    margin-top: 3.7rem;
+}
+.chateleft-two{
+    position: absolute;
+    margin-top: 6.5rem;
+    /* bottom: 10.7rem; */
+    margin-left: 0.5rem;
+}
+.chateleft-two .lefttwo-one li{
+    position: absolute;
+    list-style: none;
+    padding: 0.5rem;
+    background-color: hsl(270, 11%, 89%);
+    font-size: 14px;
+    height: 4rem;
+    width: 12rem;
+    border-radius: 15px;
+    font-weight: 500;
+    color: hsl(271, 15%, 43%);
+    /* left: 10.5rem; */
+    /* bottom: 11.3rem; */
+}
+.chateleft-two .lefttwo-two{
+    display: flex;
+    position: absolute;
+    top: 4rem;
+    background-image:linear-gradient(to left,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    height: 2.5rem;
+    width: 14.5rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 15px;
+    margin-top: 0.5rem;
+}
+.lefttwo-two .circle{
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-left: 0.7rem;
+    margin-top: 0.6rem;
+}
+.lefttwo-two li{
+    list-style: none;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 2.5rem;
+    margin-top: 0.5rem;
+}
+.lefttwo-two li span{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 3.5rem;
+}
+.chateleft-two .lefttwo-three{
+    display: flex;
+    position: absolute;
+    top: 7rem;
+    background-image:linear-gradient(to left,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    height: 2.5rem;
+    width: 14.5rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 15px;
+    margin-top: 0.5rem;
+}
+.lefttwo-three .circle{
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-left: 0.7rem;
+    margin-top: 0.6rem;
+}
+.lefttwo-three li{
+    list-style: none;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 2.5rem;
+    margin-top: 0.5rem;
+}
+.lefttwo-three li span{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 4.7rem;
+}
+.search-bar{
+    display: flex;
+    margin-top: 17rem;
+    height: 2.5rem;
+    width: 17rem;
+    margin-left: 0.5rem;
+    border-radius: 20px;
+    /* background-color: red; */
+    /* color: red; */
+}
+.search-bar input{
+    height: 2.5rem;
+    width: 17rem;
+    background-color: #fff;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    
+}
+
+.search-bar .btn{
+    position: absolute;
+    background-color: hsl(271, 36%, 24%);
+    color: #Fff;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    padding: 0.5rem;
+    margin-left: 14.5rem;
+    margin-top: 0.2rem;
+}
+.search-bar .btn span{
+font-size: 1rem;
+font-weight: 700;
+}
+
+
+.text{
+    position: absolute;
+    right: 20rem;
+}
+.text h1{
+    font-size: 3rem;
+    color: hsl(271, 36%, 24%);
+}
+.text p{
+font-size: 18px;
+color: hsl(270, 7%, 64%);
+margin-top: 1.5rem;
+}
+
+
+.container-right{
+    margin-top: 4.5rem;
+    height: 40rem;
+    width: 23rem;
+    background-color: hsl(264, 22%, 95%);
+    border-top-left-radius: 17rem;
+}
+
+@media(max-width:375px){
+    .main-container{
+        position: absolute;
+        display: block;
+        width: 50%;
+        border-bottom-left-radius: 0;
+    }
+    .container-left{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 30rem;
+        height: 44rem;
+        width: 20rem;
+    }
+    .phone{
+        position: absolute;
+        /* display: block; */
+        margin-bottom: 70rem;
+        margin-left: -11rem;
+    }
+    .container-middle{
+        height: 33rem;
+    }
+     .container-right{
+       margin-top: -40rem;
+        margin-left: 22.5rem;
+    }
+    .text{
+        position: absolute;
+        top: 47em;
+        left: 3rem;
+        height: 20rem;
+        width: 40rem;
+        text-align: center;
+    }
+    .text h1{
+        font-size: 6rem;
+
+    }
+    .text p{
+        font-size: 2rem;
+    }
+    .text p br{
+        display: none;
+    }
+}
